@@ -3,6 +3,7 @@ node_modules/
 .yarn/  
 .yarnrc.yml  
 yarn.lock  
+package-lock.json
 
 # Build files  
 dist/  
