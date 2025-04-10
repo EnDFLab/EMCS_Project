@@ -38,7 +38,7 @@ const teamData = [
     image: "/images/noimg.png",
   },
   {
-    name: "Aashish LastName",
+    name: "Aashish Bhatta",
     role: "Research Intern",
     position: "Student",
     department: "DoEEE, Kathmandu University",
@@ -58,7 +58,7 @@ const Team = () => {
     <div className="min-h-screen bg-gray-100">
       {/* Header */}
       <div className="bg-[#48bdd5] text-white text-center py-3 text-sm font-bold">
-        kamal.chapagain@ku.edu.np | +977-11-415100
+      Development of Smart Energy Management and Control System (EMCS) using the Internet of Things
       </div>
 
       {/* Team Members Section */}

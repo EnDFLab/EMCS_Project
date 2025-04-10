@@ -11,7 +11,12 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#48bdd5] border-b border-gray-300">
-      <h1 className="w-full text-3xl font-bold text-[#48bdd5]">EMCS</h1>
+      {/* Logo and Title */}
+      <NavLink to="/" className="flex items-center gap-2">
+        {/* Add your logo here */}
+        <img src="/images/logo.png" alt="Logo" className="h-8 w-8" />
+        <h1 className="text-3xl font-bold text-[#48bdd5]">EMCS</h1>
+      </NavLink>
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex">
@@ -37,7 +42,13 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Sidebar Navigation */}
-      <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-gray-100 bg-gray-100 ease-in-out duration-500' : 'fixed left-[-100%] ease-in-out duration-500'}>
+      <div
+        className={
+          nav
+            ? 'fixed left-0 top-0 w-[60%] h-full border-r border-gray-100 bg-gray-100 ease-in-out duration-500'
+            : 'fixed left-[-100%] ease-in-out duration-500'
+        }
+      >
         <h1 className="w-full text-3xl font-bold text-[#48bdd5] m-5">EMCS</h1>
         <ul className="uppercase p-4">
           {["Home", "Visualize", "Blog", "Team"].map((item, index) => (

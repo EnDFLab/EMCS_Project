@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const App = () => {
@@ -7,7 +7,7 @@ const App = () => {
     <div className="min-h-screen bg-gray-100 ">
       {/* Header */}
       <div className="bg-[#48bdd5] text-white text-center py-3 text-sm font-bold">
-        kamal.chapagain@ku.edu.np | +977-11-415100
+      Development of Smart Energy Management and Control System (EMCS) using the Internet of Things
       </div>
 
       {/* Main Content */}
@@ -19,8 +19,8 @@ const App = () => {
 
         {/* Introduction */}
         <section className="px-10 py-8 ">
-          <h1 className="text-3xl font-bold mb-2">Introduction</h1>
-          <h2 className="text-xl mb-4">EMCS</h2>
+          <h1 className="text-3xl text-[#48bdd5] font-bold mb-2">Introduction</h1>
+          <h1 className="text-2xl font-bold mb-4">EMCS</h1>
           <p className="text-lg leading-6">
             Energy management is a systematic process of monitoring and optimizing the energy consumption of an organization or a building. The EMCS (Energy Management and Control System) using IoT is an innovative approach to manage and control energy consumption. The main aim of EMCS is to provide proper management of energy and increase energy efficiency to the maximum. Features include smart energy management, condition monitoring, and real-time remote monitoring of renewable energy production. This project involves sensors, energy meters, and automation to achieve its goals.
           </p>
