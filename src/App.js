@@ -17,6 +17,9 @@ import Civil from "./pages/Visualize/Civil";
 import Management from "./pages/Visualize/Management";
 import Electrical from "./pages/Visualize/Electrical";
 import Hostel from "./pages/Visualize/Hostel";
+import Undergrad from "./pages/Undergrad";
+import Grad from "./pages/Grad";
+import NewsEvents from "./pages/NewsEvents";
 
 const App = () => {
   return (
@@ -26,6 +29,9 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/news-events" element={<NewsEvents />} />
+        <Route path="/undergrad" element={<Undergrad />} />
+        <Route path="/grad" element={<Grad />} />
 
         {/* Nested Routes inside Visualize */}
         <Route path="/visualize" element={<Visualize />}>
